@@ -1,0 +1,442 @@
+<html>
+<head>
+<title> My Custom Reports </title>
+<link rel="icon" href="C:\Users\Mr. Akshay Sapkale\Desktop\Latency Project\Favicon.ico" type="image/icon type">
+<style>
+body {
+  background: #3366cc;
+  font-family: "Open Sans", "Arial";
+}
+main {
+  background: #FFF;
+  width: 1200px;
+  height : auto;
+  margin: 50px auto;
+  padding: 10px 30px 80px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+p {
+  font-size: 13px;
+}
+
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+section {
+align : center;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  float: left;
+  padding: 10px 120px;
+  border-top: 2px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #DDD;
+}
+
+label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4, #tab5:checked ~ #content5, #tab6:checked ~ #content6, #tab7:checked ~ #content7, #tab8:checked ~ #content8 {
+  display: block;
+}
+
+input:checked + label {
+  border-top-color: #FFB03D;
+  border-right-color: #DDD;
+  border-left-color: #DDD;
+  border-bottom-color: transparent;
+  text-decoration: none;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+  font-size : 15px;
+}
+
+.table_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 13px;
+  background: #DDD;
+  padding: 5px 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+<main>
+
+<h3>This is Section-6</h3>
+<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+<br>
+
+<input id="tab1" type="radio" name="tabs">
+<label for="tab1">Home</label>
+<input id="tab2" type="radio" name="tabs">
+<label for="tab2">Away</label>
+<input id="tab3" type="radio" name="tabs">
+<label for="tab3">Samples</label>
+<input id="tab4" type="radio" name="tabs" checked>
+<label for="tab4">About</label>
+
+
+<section id="content1">
+	<h3>Some Info</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis adipiscing risus, porttitor viverra urna condimentum et. Donec vestibulum lacus vel dolor dictum pellentesque. Aliquam sodales sem quis urna condimentum, sit amet elementum magna semper.</p>
+</section>
+
+<section id="content2">
+	<h3>Something</h3>
+	<p>Aliquam condimentum hendrerit nisi, nec vestibulum mi feugiat ut. Donec lobortis nisi neque, in egestas eros venenatis eu. Vestibulum nulla nisi, venenatis at pretium id, fermentum quis risus. Quisque porta suscipit neque eu placerat. Etiam scelerisque, quam in sodales iaculis, velit velit mattis nunc, quis dapibus massa elit nec enim. Vivamus quis libero aliquam, volutpat nisl sed, consectetur ante. Donec aliquam semper felis, in placerat leo blandit in. Integer interdum elit quis felis tempor venenatis. In faucibus ac mauris id commodo. Proin in sapien tincidunt, luctus mi id, bibendum dui. Nunc tincidunt libero ut purus vehicula, sit amet tincidunt mi sollicitudin. Donec varius erat magna, sed convallis purus adipiscing ut. Duis sagittis ut leo ut auctor. Ut convallis nisl nec purus sollicitudin, nec iaculis felis rutrum. </p>
+</section>
+
+<section id="content3">
+	<h3>Heading Text</h3>
+	<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+</section>
+
+<section id="content4">
+		<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+		<br>
+		<table>
+		<tr>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		</table>
+		<br>
+
+</section>
+
+<br>
+<h3>This is Section-6</h3>
+<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+<br>
+
+<input id="tab5" type="radio" name="tabs1">
+<label for="tab5">Home-1</label>
+<input id="tab6" type="radio" name="tabs1" checked>
+<label for="tab6">Away-2</label>
+<input id="tab7" type="radio" name="tabs1">
+<label for="tab7">Samples-3</label>
+<input id="tab8" type="radio" name="tabs1">
+<label for="tab8">About-4</label>
+
+<section id="content5">
+	<h3>This is Section-5</h3>
+	<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+</section>
+	
+<section id="content6">
+		<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+		<br>
+		<table>
+		<tr>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		<th> TextHere </th>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		<tr>
+		<td>HEY</td>
+		<td>HEY1</td>
+		<td>YEARS</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		<td>VAR1</td>
+		</tr>
+		</table>
+		<br>
+</section>
+
+<section id="content7">
+	<h3>This is Section-7</h3>
+	<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+</section>
+
+<section id="content8">
+	<h3>This is Section-8</h3>
+	<p>Fusce pulvinar porttitor dui, eget ultrices nulla tincidunt vel. Suspendisse faucibus lacinia tellus, et viverra ligula. Suspendisse eget ipsum auctor, congue metus vel, dictum erat. Aenean tristique euismod molestie. Nulla rutrum accumsan nisl, ac semper sapien tincidunt et. Praesent tortor risus, commodo et sagittis nec, aliquam quis augue. Aenean non elit elementum, tempor metus at, aliquam felis.</p>
+</section>
+
+</main>
+
+</body>
+</html>
